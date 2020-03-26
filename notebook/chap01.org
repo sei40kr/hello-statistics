@@ -7,7 +7,7 @@ import pandas as pd
 
 #+begin_src jupyter-python :session py :async yes
 # 生徒番号をインデックスとして csv ファイルを読み込み、変数 df に格納
-df = pd.read_csv('data/ch1_sport_test.csv', index_col='生徒番号')
+df = pd.read_csv('../data/ch1_sport_test.csv', index_col='生徒番号')
 
 # 変数 df を表示
 df
